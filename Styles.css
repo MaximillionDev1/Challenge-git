@@ -1,0 +1,161 @@
+* {
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-logo {
+    display: inline-block;
+    width: 595px;
+    height: 500px;
+    margin-top: 246px;
+    margin-left: 121px;
+}
+
+div {
+    display: inline-block;
+}
+
+header {
+    color: #17233D;
+}
+
+.button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    margin-top: 32px;
+    margin-left: 42px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+
+.header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    top: 342px;
+    left: 801px;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    top: 553px;
+    left: 801px;
+    color: #4B505A;
+    ;
+}
+
+.link {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    ;
+}
+
+@media screen and (max-width:900px) {
+    .header {
+        display: none;
+    }
+
+    .button {
+        width: 91px;
+        height: 31px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        background: #6FBF44;
+        margin-left: 70%;
+    }
+
+    .img-logo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin: 0;
+        margin-top: 50%;
+        position: absolute;
+        top: 35%
+    }
+
+    div {
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        padding: 50;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 278px;
+        margin-left: 70px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin-top: 0;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 304px;
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-top: 60px;
+        margin-left: 150px;
+        padding-top: 20px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+
+}
